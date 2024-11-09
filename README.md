@@ -1,4 +1,5 @@
 Fraud Detection Project
+
 This project is a Fraud Detection system developed in Python. It runs in a custom Anaconda environment named fraud, and the application is built using Streamlit to create an interactive web interface (deployed).
 
 Project Structure
@@ -56,7 +57,6 @@ Real-Time Predictions: Get instant predictions on whether a transaction is fraud
 Data Visualization: Visualize trends and patterns in the data using graphs and charts.
 Model Training: Optionally train models on new datasets.
 Example Input
-Provide some example inputs that the user can enter to see how the application responds.
 
 Troubleshooting
 If you encounter any issues with package installations, make sure your conda environment is properly activated.

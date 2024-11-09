@@ -1,37 +1,31 @@
-# Fraud Detection Project
+Fraud Detection Project
+This project is a Fraud Detection system developed in Python. It runs in a custom Anaconda environment named fraud, and the application is built using Streamlit to create an interactive web interface (deployed).
 
-This project is a Fraud Detection system developed in Python. It runs in a custom Anaconda environment named `fraud`, and the application is built using **Streamlit** to create an interactive web interface.(deployed)
+Project Structure
+app.py: Main file to run the Streamlit app.
+requirements.txt: List of required Python packages to install in the environment.
+models/: Directory containing trained models.
+data/: Directory containing datasets used for training and testing.
+scripts/: Folder containing additional scripts for data processing and model building.
+Getting Started
+Prerequisites
+Make sure you have Anaconda installed on your system. You can download it from here.
 
-## Project Structure
-
-- `app.py`: Main file to run the Streamlit app.
-- `requirements.txt`: List of required Python packages to install in the environment.
-- `models/`: Directory containing trained models.
-- `data/`: Directory containing datasets used for training and testing.
-- `scripts/`: Folder containing additional scripts for data processing and model building.
-
-## Getting Started
-
-### Prerequisites
-
-Make sure you have **Anaconda** installed on your system. You can download it from [here](https://www.anaconda.com/products/distribution).
-
-### Setting up the Environment
-
-1. Open **Anaconda Prompt**.
-2. Navigate to the project directory using the following command:
-    ```bash
-    cd C:\Users\Fraud Detection
-    ```
-3. Create and activate the environment for the project. If the environment already exists, simply activate it:
-    ```bash
-    conda activate fraud
-    ```
-
-### Installing Dependencies
-
+Setting up the Environment
+Open Anaconda Prompt.
+Navigate to the project directory using the following command:
+bash
+Copy code
+cd C:\Users\Fraud Detection
+Create and activate the environment for the project. If the environment already exists, simply activate it:
+bash
+Copy code
+conda activate fraud
+Installing Dependencies
 To ensure you have all the required packages, you can install the necessary dependencies by running:
-```bash
+
+bash
+Copy code
 pip install -r requirements.txt
 Required Packages
 The following packages are typically required for this project (add or modify according to your actual requirements):
@@ -48,6 +42,9 @@ You can add more packages as needed for your specific implementation.
 
 Running the App
 To start the Streamlit app, use the following command in the Anaconda prompt:
+
+bash
+Copy code
 streamlit run app.py
 This will open the Streamlit application in your web browser.
 
@@ -73,16 +70,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
-Thanks to the contributors and libraries that made this project possible.
-Special thanks to the dataset sources and any individuals or resources that inspired the project.
+Thanks to the contributors and libraries that made this project possible. Special thanks to the dataset sources and any individuals or resources that inspired the project.
 
-vbnet
-
-### Additional Suggestions:
-1. **Add a License File**: Include a `LICENSE` file in your repository that outlines how others can use your code.
-2. **Document Dataset Sources**: If you're using external datasets, provide information about where to find them and how to access them.
-3. **Add Screenshots**: Include screenshots of your app in action to give users a visual understanding of what to expect.
-4. **Deployment Instructions**: If applicable, add instructions for deploying the app on cloud services like Heroku or Streamlit Sharing.
-5. **Contact Information**: Consider adding an email or contact form for users to reach out with questions or feedback.
-
-These additions will make your `README.md` file more comprehensive and user-friendly! Let me know if you need help with anything else.
+Missing CSV File
+If you need the missing CSV file for this project, feel free to contact me directly at chinmaydeshmukh203@gmail.com or via Instagram.
